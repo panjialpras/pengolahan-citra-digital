@@ -4,8 +4,7 @@ import numpy as np
 # RGB TO GRAYSCALE
 
 # baca gambar dari direktori yang ditentukan
-image = cv2.imread(
-    "C:/Users/HP/Documents/Berkas Penting/Tugas Kuliah/Code/Py/image processing/chelsea-rgb.jpg")
+image = cv2.imread("img/chelsea-rgb.jpg")
 cv2.imshow("RGB", image)
 
 # menyimpan channel warna RGB dan menyimpannya ke dalam variabel terpisah
