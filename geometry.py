@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # baca gambar dari direktori yang ditentukan
-image_dir = ("D:/Berkas Penting/Tugas Kuliah/Code/Py/image processing/chelsea-rgb.jpg")
+image_dir = ("chelsea-rgb.jpg")
 image = cv.imread(image_dir)
 cv.imshow("RGB", image)
 
