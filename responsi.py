@@ -150,9 +150,9 @@ def gnt_bg(citra, latar):
 
 
 citra1 = cv2.imread(
-    "C:/Users/HP/Documents/Berkas Penting/Tugas Kuliah/Code/Py/image processing/1.jpeg")
+    "1.jpeg")
 citra2 = cv2.imread(
-    "C:/Users/HP/Documents/Berkas Penting/Tugas Kuliah/Code/Py/image processing/latar1.jpg")
+    "latar1.jpg")
 
 jm_brs = len(citra1[:])
 jm_klm = len(citra1[0, :])
