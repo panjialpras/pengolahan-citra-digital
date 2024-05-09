@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from tubes import *
 
-citra2 = cv.imread("D:/Berkas Penting/Tugas Kuliah/Code/Py/image processing/latar1.jpg")
+citra2 = cv.imread("latar1.jpg")
 b1 = citra1[:,:,0]
 g1 = citra1[:,:,1]
 r1 = citra1[:,:,2]
