@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-image1 = cv.imread("D:/Berkas Penting/Tugas Kuliah/Code/Py/image processing/chelsea-rgb.jpg")
-image2 = cv.imread("D:/Berkas Penting/Tugas Kuliah/Code/Py/image processing/kacamata.jpg")
+image1 = cv.imread("chelsea-rgb.jpg")
+image2 = cv.imread("kacamata.jpg")
 
 # baca variabel warna RGB + simpan ke dalam variabel terpisah
 b1 = image1[:, :, 0]
